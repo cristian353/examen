@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <a class="titulo" href="#">Criptomonedes</a>
+    </header>
+    <hr>
+    <br>
+    <main>
+        <script>
+            function cantidad() {
+                document.getElementById("cantidad").value = document.getElementById("bitcoin").value;
+            }
+        </script>
+        <form action="" method="get">
+            bitcoin <input type="text" id="bitcoin" >
+            <input type="text" id="valor" value="39.262 €">
+            <br>
+            <br>
+            Cantidad monedas <input id="cantidad" type="text" onclick="cantidad">
+            Valor <input type="text" id="valor-total">
+        </form>
+    </main>
+</body>
+</html>

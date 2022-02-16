@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    background-color:  rgb(182, 105, 81);
+}
+
+header {
+    padding: 2em;
+    text-align: center;
+}
+
+div.bitcoin {
+    display: inline-block;
+    position: relative;
+    left: 85%;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+div.contenedor {
+    background-color: white;
+    position: relative;
+    top: 20px;
+}
+
+div.etherum {
+    position: relative;
+    display: inline-block;
+    left: 60%;
+}
+
+div.litecoin {
+    position: relative;
+    top: 40px;
+    left: 10%;
+}
+
+div.pie {
+    display: inline-block;
+    width: 100vw;
+    position: absolute;
+    bottom: 17%;
+    text-align: center;
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+span.rojo {
+    color: red;
+}
+
+a.titulo {
+    font-size: 30px;
+}
